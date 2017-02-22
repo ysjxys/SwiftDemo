@@ -1,0 +1,24 @@
+##source 'https://github.com/CocoaPods/Specs.git'
+##source 'https://git.oschina.net/yushengjie/ImagePicker.git'
+##source 'http://112.124.41.46/yushengjie/store.git'
+##source 'http://112.124.41.46/yougoods-ios/kvstore.git'
+#platform :ios, '8.1'
+#target 'TestCreatePod' do
+#    use_frameworks!
+#    pod 'YSJStore', :git => 'https://git.oschina.net/yushengjie/YSJStore.git'
+#    pod 'Kvstore', :git => 'http://112.124.41.46/yougoods-ios/kvstore.git'
+##    pod 'store', :git => 'http://112.124.41.46/yushengjie/store.git'
+#    pod 'ImagePicker', :git => 'https://git.oschina.net/yushengjie/ImagePicker.git'
+#end
+
+source 'https://git.oschina.net/yushengjie/ysj.git'
+#source 'git@112.124.41.46:yougoods-ios/xgn.git'
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.1'
+
+
+target 'TestCreatePod' do
+    use_frameworks!
+    pod 'ImagePicker'
+    pod 'KVStore'
+end

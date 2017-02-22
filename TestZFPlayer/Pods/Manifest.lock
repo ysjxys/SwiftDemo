@@ -1,0 +1,18 @@
+PODS:
+  - Masonry (1.0.2)
+  - SnapKit (3.1.2)
+  - ZFPlayer (2.1.1):
+    - Masonry
+
+DEPENDENCIES:
+  - SnapKit (~> 3.1.2)
+  - ZFPlayer (~> 2.1.1)
+
+SPEC CHECKSUMS:
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  SnapKit: 12b24f569cb7c143acc9c22b9d91b23e7b1c84a2
+  ZFPlayer: c36657da33c28c75dfb100e98e7976b5b3e1fc10
+
+PODFILE CHECKSUM: 3a96bd7bf1e742ab0213929f89d754fcc7b30605
+
+COCOAPODS: 1.1.1

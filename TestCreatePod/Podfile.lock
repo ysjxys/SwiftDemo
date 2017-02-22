@@ -1,0 +1,29 @@
+PODS:
+  - CryptoSwift (0.6.7)
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - ImagePicker (1.0.0):
+    - MBProgressHUD
+  - KVStore (1.0.0):
+    - CryptoSwift
+    - FMDB
+    - SAMKeychain
+  - MBProgressHUD (1.0.0)
+  - SAMKeychain (1.5.2)
+
+DEPENDENCIES:
+  - ImagePicker
+  - KVStore
+
+SPEC CHECKSUMS:
+  CryptoSwift: 685ae257941e5447474348a2b545583e1a16b573
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  ImagePicker: df8e319f66387da88ee0cd86a1b4502aac4225e8
+  KVStore: 0e547fb5da38100e6f7c080fcebcc87b9940085a
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  SAMKeychain: 1865333198217411f35327e8da61b43de79b635b
+
+PODFILE CHECKSUM: 3ba49c2dd7b4e6f51b7ddd66956ec7be25e07081
+
+COCOAPODS: 1.1.1
