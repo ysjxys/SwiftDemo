@@ -1,0 +1,7 @@
+source 'https://github.com/CocoaPods/Specs.git'
+source 'git@112.124.41.46:yougoods-ios/xgn.git'
+platform :ios, '8.1'
+target 'TestMediaPlayer' do
+    use_frameworks!
+pod 'MediaPicker', '~> 1.0.5'
+end

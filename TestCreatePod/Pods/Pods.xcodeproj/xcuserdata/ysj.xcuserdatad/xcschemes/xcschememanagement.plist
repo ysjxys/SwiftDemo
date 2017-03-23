@@ -4,27 +4,12 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>CryptoSwift.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>FMDB.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>ImagePicker.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>KVStore.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>MBProgressHUD.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>MediaPicker.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -34,45 +19,20 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>SAMKeychain.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>251BAD17812F7EBF6532EACF66F941C3</key>
+		<key>139F5C18F3F95E9AD2BAE18C2B8363D0</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>5889C86039CED1F6D0E498B3FF769B28</key>
+		<key>41FA54D12162DAD51D02FC58A2CD5034</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>5B3A1C848DB5937FCE1BFEB747C4182C</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>69EE3579BBE031C3365B09E5CC3902A4</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>6BB1C1403B2419F911818DA8413FDA07</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>8204E5A2FD6DE05EA10CFB4A4A9170F3</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>9F89B58256453D3FE4F380CF6C96B5FA</key>
+		<key>F761AE80F6C27EBD472BAF808ACC9E63</key>
 		<dict>
 			<key>primary</key>
 			<true/>

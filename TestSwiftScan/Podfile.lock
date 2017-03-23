@@ -1,0 +1,22 @@
+PODS:
+  - swiftScan (1.0.8)
+
+DEPENDENCIES:
+  - swiftScan (from `https://github.com/MxABC/swiftScan.git`, tag `1.0.9`)
+
+EXTERNAL SOURCES:
+  swiftScan:
+    :git: https://github.com/MxABC/swiftScan.git
+    :tag: 1.0.9
+
+CHECKOUT OPTIONS:
+  swiftScan:
+    :git: https://github.com/MxABC/swiftScan.git
+    :tag: 1.0.9
+
+SPEC CHECKSUMS:
+  swiftScan: 2dc76303bc7c2dcb7bde9c539f9bd6a7520abc8e
+
+PODFILE CHECKSUM: c2feca4ad99f8503201d8720430ecb7448ec4677
+
+COCOAPODS: 1.1.1

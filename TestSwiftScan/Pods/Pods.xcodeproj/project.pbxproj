@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31419724727FB4020D131312C0E33974 /* Pods-TestSwiftScan-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CC35D8935C60D69EA4879FA76465D05 /* Pods-TestSwiftScan-dummy.m */; };
+		60F07DD00549276A86FABAC36F625206 /* LBXScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF3B39831AB52EEDFFD780F57BA5465 /* LBXScanView.swift */; };
+		661094222C3F82F3D93AC570024FE6FD /* LBXScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E799B64561D5EF1236FE7C95FA1044A5 /* LBXScanViewController.swift */; };
+		747CAA9CA3E2B0D421F05E6010824A94 /* LBXScanWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F6BAF39592EC0AC179B97955F64054 /* LBXScanWrapper.swift */; };
+		801D6116B4BCC26708B1C3044F467D93 /* LBXScanNetAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A8D4230E3B6697791D55A207015CDC /* LBXScanNetAnimation.swift */; };
+		8628D8F186BED2903CCC0B5CF7DCF498 /* LBXScanViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E0FE0DAF01B3148F866B65D38DA6DE /* LBXScanViewStyle.swift */; };
+		986B0FC65E7FC538623D0E4D574B5776 /* LBXScanLineAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54D6C3C4BD78D32C40937C7D926D755 /* LBXScanLineAnimation.swift */; };
+		9E8EBD1EAC920CD086A0E530A23E0C1C /* swiftScan-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 43ADD3609F581E9C85B25B07F5369C32 /* swiftScan-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDE56B480D6CD4F5709928BEF6CC9C44 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		BDF190EE39B85B28F08ACADFD13C95BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		D3D13DBB5FCD48FD1A03BC5B407930B5 /* swiftScan-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C0F14D3B15D67416A46AD0C4D9B2B4 /* swiftScan-dummy.m */; };
+		D5E7B0A648AE8D37CA27E29CF33A490D /* LBXPermissions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70323C21328E473419B90E023BA9FF4E /* LBXPermissions.swift */; };
+		FE3E18219B3B8E3198DDB565C05CC65C /* Pods-TestSwiftScan-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 571B8CD00C5A7E066605AD34D4D5C3F8 /* Pods-TestSwiftScan-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		54B6028A47DC58637CFD2DA81E38A1C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53CDAED4221977F4C1983B3CFF9E6E94;
+			remoteInfo = swiftScan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08EBF46C3979EE0AE47332CDB622E701 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10E0FE0DAF01B3148F866B65D38DA6DE /* LBXScanViewStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LBXScanViewStyle.swift; path = Source/LBXScanViewStyle.swift; sourceTree = "<group>"; };
+		21F6BAF39592EC0AC179B97955F64054 /* LBXScanWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LBXScanWrapper.swift; path = Source/LBXScanWrapper.swift; sourceTree = "<group>"; };
+		226D4F143F9208A3C5CE413BD3CB2D8B /* Pods_TestSwiftScan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TestSwiftScan.framework; path = "Pods-TestSwiftScan.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E68B26B34ADEE0FAAD8FF6587FB6663 /* swiftScan.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = swiftScan.modulemap; sourceTree = "<group>"; };
+		43ADD3609F581E9C85B25B07F5369C32 /* swiftScan-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "swiftScan-umbrella.h"; sourceTree = "<group>"; };
+		571B8CD00C5A7E066605AD34D4D5C3F8 /* Pods-TestSwiftScan-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestSwiftScan-umbrella.h"; sourceTree = "<group>"; };
+		5EF3B39831AB52EEDFFD780F57BA5465 /* LBXScanView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LBXScanView.swift; path = Source/LBXScanView.swift; sourceTree = "<group>"; };
+		687365DEC97282CDF6484A5D2866ACED /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70323C21328E473419B90E023BA9FF4E /* LBXPermissions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LBXPermissions.swift; path = Source/LBXPermissions.swift; sourceTree = "<group>"; };
+		869103491E8D03A6168A3BB0D7767A20 /* Pods-TestSwiftScan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestSwiftScan.debug.xcconfig"; sourceTree = "<group>"; };
+		8CA1025AB43B799AB2F23C0BD8D37B0B /* Pods-TestSwiftScan.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TestSwiftScan.modulemap"; sourceTree = "<group>"; };
+		8CC35D8935C60D69EA4879FA76465D05 /* Pods-TestSwiftScan-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestSwiftScan-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A6472C914C1CB4424AA137B9153C636 /* Pods-TestSwiftScan-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestSwiftScan-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A4AACDEF5DF05B2FEE084A06F1409535 /* swiftScan-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "swiftScan-prefix.pch"; sourceTree = "<group>"; };
+		A811FC0DF760F253D29F559E67F2B9C5 /* swiftScan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = swiftScan.framework; path = swiftScan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A97158E63200441E90B1EECDCA64618C /* Pods-TestSwiftScan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestSwiftScan.release.xcconfig"; sourceTree = "<group>"; };
+		B5A8D4230E3B6697791D55A207015CDC /* LBXScanNetAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LBXScanNetAnimation.swift; path = Source/LBXScanNetAnimation.swift; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D54D6C3C4BD78D32C40937C7D926D755 /* LBXScanLineAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LBXScanLineAnimation.swift; path = Source/LBXScanLineAnimation.swift; sourceTree = "<group>"; };
+		D6CB1CA24D98A68B1DCDA7E286085A04 /* Pods-TestSwiftScan-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestSwiftScan-resources.sh"; sourceTree = "<group>"; };
+		D91E071154BCFB1C3B46ECC1B8919905 /* Pods-TestSwiftScan-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestSwiftScan-frameworks.sh"; sourceTree = "<group>"; };
+		DFCE5E9BE6988A5B55A5EEABCEDB8D7E /* Pods-TestSwiftScan-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestSwiftScan-acknowledgements.plist"; sourceTree = "<group>"; };
+		E799B64561D5EF1236FE7C95FA1044A5 /* LBXScanViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LBXScanViewController.swift; path = Source/LBXScanViewController.swift; sourceTree = "<group>"; };
+		EA1C9695780652BBDC88968B1A33FA34 /* swiftScan.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = swiftScan.xcconfig; sourceTree = "<group>"; };
+		F9C0F14D3B15D67416A46AD0C4D9B2B4 /* swiftScan-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "swiftScan-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20F83FDE373591D78284B9529DC329E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDE56B480D6CD4F5709928BEF6CC9C44 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4B0ED269F9AACF14854BE1A17994883 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF190EE39B85B28F08ACADFD13C95BD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32870B67BB0035972E0E32A281DEAF35 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				08EBF46C3979EE0AE47332CDB622E701 /* Info.plist */,
+				3E68B26B34ADEE0FAAD8FF6587FB6663 /* swiftScan.modulemap */,
+				EA1C9695780652BBDC88968B1A33FA34 /* swiftScan.xcconfig */,
+				F9C0F14D3B15D67416A46AD0C4D9B2B4 /* swiftScan-dummy.m */,
+				A4AACDEF5DF05B2FEE084A06F1409535 /* swiftScan-prefix.pch */,
+				43ADD3609F581E9C85B25B07F5369C32 /* swiftScan-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/swiftScan";
+			sourceTree = "<group>";
+		};
+		39DBD262BA651B9DFB9C2DBE8D931BA8 /* swiftScan */ = {
+			isa = PBXGroup;
+			children = (
+				70323C21328E473419B90E023BA9FF4E /* LBXPermissions.swift */,
+				D54D6C3C4BD78D32C40937C7D926D755 /* LBXScanLineAnimation.swift */,
+				B5A8D4230E3B6697791D55A207015CDC /* LBXScanNetAnimation.swift */,
+				5EF3B39831AB52EEDFFD780F57BA5465 /* LBXScanView.swift */,
+				E799B64561D5EF1236FE7C95FA1044A5 /* LBXScanViewController.swift */,
+				10E0FE0DAF01B3148F866B65D38DA6DE /* LBXScanViewStyle.swift */,
+				21F6BAF39592EC0AC179B97955F64054 /* LBXScanWrapper.swift */,
+				32870B67BB0035972E0E32A281DEAF35 /* Support Files */,
+			);
+			name = swiftScan;
+			path = swiftScan;
+			sourceTree = "<group>";
+		};
+		3F7215078555F3F22D5561E9555B2E4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				226D4F143F9208A3C5CE413BD3CB2D8B /* Pods_TestSwiftScan.framework */,
+				A811FC0DF760F253D29F559E67F2B9C5 /* swiftScan.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				E3EF0B4DA11DDCC36103BA077CE80010 /* Pods */,
+				3F7215078555F3F22D5561E9555B2E4E /* Products */,
+				DEF7EF2BE4ECB3AD889E49963D7C5A68 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C899724CF6AB67F9E8663363E736F62A /* Pods-TestSwiftScan */ = {
+			isa = PBXGroup;
+			children = (
+				687365DEC97282CDF6484A5D2866ACED /* Info.plist */,
+				8CA1025AB43B799AB2F23C0BD8D37B0B /* Pods-TestSwiftScan.modulemap */,
+				9A6472C914C1CB4424AA137B9153C636 /* Pods-TestSwiftScan-acknowledgements.markdown */,
+				DFCE5E9BE6988A5B55A5EEABCEDB8D7E /* Pods-TestSwiftScan-acknowledgements.plist */,
+				8CC35D8935C60D69EA4879FA76465D05 /* Pods-TestSwiftScan-dummy.m */,
+				D91E071154BCFB1C3B46ECC1B8919905 /* Pods-TestSwiftScan-frameworks.sh */,
+				D6CB1CA24D98A68B1DCDA7E286085A04 /* Pods-TestSwiftScan-resources.sh */,
+				571B8CD00C5A7E066605AD34D4D5C3F8 /* Pods-TestSwiftScan-umbrella.h */,
+				869103491E8D03A6168A3BB0D7767A20 /* Pods-TestSwiftScan.debug.xcconfig */,
+				A97158E63200441E90B1EECDCA64618C /* Pods-TestSwiftScan.release.xcconfig */,
+			);
+			name = "Pods-TestSwiftScan";
+			path = "Target Support Files/Pods-TestSwiftScan";
+			sourceTree = "<group>";
+		};
+		DEF7EF2BE4ECB3AD889E49963D7C5A68 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C899724CF6AB67F9E8663363E736F62A /* Pods-TestSwiftScan */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E3EF0B4DA11DDCC36103BA077CE80010 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				39DBD262BA651B9DFB9C2DBE8D931BA8 /* swiftScan */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7B07E32739875FE2439135D972537772 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E8EBD1EAC920CD086A0E530A23E0C1C /* swiftScan-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F23E9E6710C49B33F6F4D749F3D4476B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE3E18219B3B8E3198DDB565C05CC65C /* Pods-TestSwiftScan-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4A54560A38B4743AA00DED0A61E9E354 /* Pods-TestSwiftScan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7F66885E0BB2105E5D30260170A6C1D /* Build configuration list for PBXNativeTarget "Pods-TestSwiftScan" */;
+			buildPhases = (
+				68D1B1B2ABE2219C293D1C9405AB04DB /* Sources */,
+				20F83FDE373591D78284B9529DC329E7 /* Frameworks */,
+				F23E9E6710C49B33F6F4D749F3D4476B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BAC5D326B9A5BAB33BB34C7B7FF8F59 /* PBXTargetDependency */,
+			);
+			name = "Pods-TestSwiftScan";
+			productName = "Pods-TestSwiftScan";
+			productReference = 226D4F143F9208A3C5CE413BD3CB2D8B /* Pods_TestSwiftScan.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		53CDAED4221977F4C1983B3CFF9E6E94 /* swiftScan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6430BF241722E70DC1955F7C1FE1CFD /* Build configuration list for PBXNativeTarget "swiftScan" */;
+			buildPhases = (
+				2684C4267705D4E814A7459EF80C5C0A /* Sources */,
+				F4B0ED269F9AACF14854BE1A17994883 /* Frameworks */,
+				7B07E32739875FE2439135D972537772 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = swiftScan;
+			productName = swiftScan;
+			productReference = A811FC0DF760F253D29F559E67F2B9C5 /* swiftScan.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 3F7215078555F3F22D5561E9555B2E4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A54560A38B4743AA00DED0A61E9E354 /* Pods-TestSwiftScan */,
+				53CDAED4221977F4C1983B3CFF9E6E94 /* swiftScan */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2684C4267705D4E814A7459EF80C5C0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5E7B0A648AE8D37CA27E29CF33A490D /* LBXPermissions.swift in Sources */,
+				986B0FC65E7FC538623D0E4D574B5776 /* LBXScanLineAnimation.swift in Sources */,
+				801D6116B4BCC26708B1C3044F467D93 /* LBXScanNetAnimation.swift in Sources */,
+				60F07DD00549276A86FABAC36F625206 /* LBXScanView.swift in Sources */,
+				661094222C3F82F3D93AC570024FE6FD /* LBXScanViewController.swift in Sources */,
+				8628D8F186BED2903CCC0B5CF7DCF498 /* LBXScanViewStyle.swift in Sources */,
+				747CAA9CA3E2B0D421F05E6010824A94 /* LBXScanWrapper.swift in Sources */,
+				D3D13DBB5FCD48FD1A03BC5B407930B5 /* swiftScan-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68D1B1B2ABE2219C293D1C9405AB04DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31419724727FB4020D131312C0E33974 /* Pods-TestSwiftScan-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2BAC5D326B9A5BAB33BB34C7B7FF8F59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = swiftScan;
+			target = 53CDAED4221977F4C1983B3CFF9E6E94 /* swiftScan */;
+			targetProxy = 54B6028A47DC58637CFD2DA81E38A1C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0BBFE932F7B1B2B3815F18C978476867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A97158E63200441E90B1EECDCA64618C /* Pods-TestSwiftScan.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TestSwiftScan/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestSwiftScan/Pods-TestSwiftScan.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TestSwiftScan;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0C3D635B58E4ABFB6523EAFD7FBB50C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA1C9695780652BBDC88968B1A33FA34 /* swiftScan.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/swiftScan/swiftScan-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/swiftScan/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/swiftScan/swiftScan.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = swiftScan;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0D02BB16AA77538FC0966ABA9B22955B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 869103491E8D03A6168A3BB0D7767A20 /* Pods-TestSwiftScan.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TestSwiftScan/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestSwiftScan/Pods-TestSwiftScan.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TestSwiftScan;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		34CAF8A0830BB5DA82F0324F254016E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA1C9695780652BBDC88968B1A33FA34 /* swiftScan.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/swiftScan/swiftScan-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/swiftScan/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/swiftScan/swiftScan.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = swiftScan;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A435E3C35B2666C25C53422D898980A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F2C4F47FC8AD76198661C5EFDE751899 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A435E3C35B2666C25C53422D898980A7 /* Debug */,
+				F2C4F47FC8AD76198661C5EFDE751899 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7F66885E0BB2105E5D30260170A6C1D /* Build configuration list for PBXNativeTarget "Pods-TestSwiftScan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D02BB16AA77538FC0966ABA9B22955B /* Debug */,
+				0BBFE932F7B1B2B3815F18C978476867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6430BF241722E70DC1955F7C1FE1CFD /* Build configuration list for PBXNativeTarget "swiftScan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C3D635B58E4ABFB6523EAFD7FBB50C4 /* Debug */,
+				34CAF8A0830BB5DA82F0324F254016E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

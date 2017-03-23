@@ -20,7 +20,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.backgroundColor = UIColor.white
         
-        window?.rootViewController = UINavigationController(rootViewController: ViewController())
+        let nav1 = UINavigationController(rootViewController: ViewController())
+        nav1.tabBarItem = UITabBarItem(title: "播放", image: nil, selectedImage: nil)
+        
+        let nav2 = UINavigationController(rootViewController: TableViewVideoController())
+        nav2.tabBarItem = UITabBarItem(title: "table播放", image: nil, selectedImage: nil)
+        
+        let tabBar = UITabBarController()
+        tabBar.viewControllers = [nav1, nav2]
+        
+        window?.rootViewController = tabBar
         
         window?.makeKeyAndVisible()
         return true

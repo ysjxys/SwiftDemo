@@ -1,0 +1,15 @@
+PODS:
+  - MBProgressHUD (1.0.0)
+  - MediaPicker (1.0.5):
+    - MBProgressHUD
+
+DEPENDENCIES:
+  - MediaPicker (~> 1.0.5)
+
+SPEC CHECKSUMS:
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  MediaPicker: e19fd7dfc33399a3d77ba2c13fa7effb2b940c26
+
+PODFILE CHECKSUM: 8efde67798d880e86e594b140b5a8fda3d180bad
+
+COCOAPODS: 1.1.1

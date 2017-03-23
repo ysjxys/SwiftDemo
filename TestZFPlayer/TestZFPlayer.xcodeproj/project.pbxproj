@@ -15,6 +15,9 @@
 		7E8F1F931E49CAA800B99FD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E8F1F911E49CAA800B99FD6 /* LaunchScreen.storyboard */; };
 		7E8F1F9E1E49CAA800B99FD6 /* TestZFPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8F1F9D1E49CAA800B99FD6 /* TestZFPlayerTests.swift */; };
 		7E8F1FA91E49CAA800B99FD6 /* TestZFPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8F1FA81E49CAA800B99FD6 /* TestZFPlayerUITests.swift */; };
+		7E923A741E7A66F30052AECC /* TableViewVideoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E923A731E7A66F30052AECC /* TableViewVideoController.swift */; };
+		7E923A761E7A75D20052AECC /* CellVideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E923A751E7A75D20052AECC /* CellVideoModel.swift */; };
+		7E923A781E7A79090052AECC /* TableViewVideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E923A771E7A79090052AECC /* TableViewVideoCell.swift */; };
 		C7872BE3AAE2BA7A63D7CEB9 /* Pods_TestZFPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1626A8A9C89D103ED0A80E6F /* Pods_TestZFPlayer.framework */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +56,9 @@
 		7E8F1FA81E49CAA800B99FD6 /* TestZFPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestZFPlayerUITests.swift; sourceTree = "<group>"; };
 		7E8F1FAA1E49CAA800B99FD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E8F1FB61E4AAB3B00B99FD6 /* TestZFPlayer-Bridging-header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestZFPlayer-Bridging-header.h"; sourceTree = SOURCE_ROOT; };
+		7E923A731E7A66F30052AECC /* TableViewVideoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewVideoController.swift; sourceTree = "<group>"; };
+		7E923A751E7A75D20052AECC /* CellVideoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellVideoModel.swift; sourceTree = "<group>"; };
+		7E923A771E7A79090052AECC /* TableViewVideoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewVideoCell.swift; sourceTree = "<group>"; };
 		8CBAD5DACAC62EB0193515BB /* Pods-TestZFPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestZFPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestZFPlayer/Pods-TestZFPlayer.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -126,6 +132,9 @@
 			children = (
 				7E8F1F851E49CAA800B99FD6 /* AppDelegate.swift */,
 				7E8F1F871E49CAA800B99FD6 /* ViewController.swift */,
+				7E923A751E7A75D20052AECC /* CellVideoModel.swift */,
+				7E923A771E7A79090052AECC /* TableViewVideoCell.swift */,
+				7E923A731E7A66F30052AECC /* TableViewVideoController.swift */,
 				7E8F1F891E49CAA800B99FD6 /* Main.storyboard */,
 				7E8F1F8F1E49CAA800B99FD6 /* Assets.xcassets */,
 				7E8F1FB61E4AAB3B00B99FD6 /* TestZFPlayer-Bridging-header.h */,
@@ -344,7 +353,10 @@
 			files = (
 				7E8F1F881E49CAA800B99FD6 /* ViewController.swift in Sources */,
 				7E8F1F8E1E49CAA800B99FD6 /* TestZFPlayer.xcdatamodeld in Sources */,
+				7E923A761E7A75D20052AECC /* CellVideoModel.swift in Sources */,
+				7E923A781E7A79090052AECC /* TableViewVideoCell.swift in Sources */,
 				7E8F1F861E49CAA800B99FD6 /* AppDelegate.swift in Sources */,
+				7E923A741E7A66F30052AECC /* TableViewVideoController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
