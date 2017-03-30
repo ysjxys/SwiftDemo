@@ -1,0 +1,17 @@
+syntax = 'proto3';
+
+option java_package = 'com.fzc.domain.proto';
+option java_outer_classname = 'OuterPersonProto';
+option java_multiple_files = true;
+
+message PersonProto {
+    string firstName = 1;
+    string secondName = 2;
+    int32 age = 3;
+    repeated PhoneNumber phoneNumbers = 4;
+
+    message PhoneNumber {
+        int32 areaCode = 1;
+        int64 phoneNumber = 2;
+    }
+};
