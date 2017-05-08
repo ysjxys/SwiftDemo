@@ -1,0 +1,6 @@
+framework module Pods_TestAllWebRequest {
+  umbrella header "Pods-TestAllWebRequest-umbrella.h"
+
+  export *
+  module * { export * }
+}
