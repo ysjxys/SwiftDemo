@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="XibCell" customModule="TestFDTemplateLayoutCell" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="317" id="IGZ-T1-bLK" customClass="XibCell" customModule="TestFDTemplateLayoutCell" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="IGZ-T1-bLK" id="cV5-Y9-bkq">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="199.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zCj-r2-lPw">
+                        <rect key="frame" x="8" y="8" width="304" height="183.5"/>
+                        <color key="backgroundColor" red="0.83137254900000002" green="0.83137254900000002" blue="0.83137254900000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="zCj-r2-lPw" firstAttribute="leading" secondItem="cV5-Y9-bkq" secondAttribute="leadingMargin" id="1vG-BA-iRB"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="zCj-r2-lPw" secondAttribute="bottom" id="H6G-Jd-UgP"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="zCj-r2-lPw" secondAttribute="trailing" id="gZk-iH-j69"/>
+                    <constraint firstItem="zCj-r2-lPw" firstAttribute="top" secondItem="cV5-Y9-bkq" secondAttribute="topMargin" id="vRc-0D-uJK"/>
+                </constraints>
+            </tableViewCellContentView>
+            <accessibility key="accessibilityConfiguration" identifier="XibCell"/>
+            <connections>
+                <outlet property="contentLabel" destination="zCj-r2-lPw" id="tGl-xy-LGe"/>
+            </connections>
+            <point key="canvasLocation" x="35.5" y="-276.5"/>
+        </tableViewCell>
+    </objects>
+</document>
