@@ -1,0 +1,18 @@
+PODS:
+  - AlicloudPush (1.9.1):
+    - AlicloudUtils
+  - AlicloudUTDID (1.1.0.16)
+  - AlicloudUtils (1.1.7):
+    - AlicloudUTDID
+
+DEPENDENCIES:
+  - AlicloudPush
+
+SPEC CHECKSUMS:
+  AlicloudPush: 4fbee1f82605adc3bfc7c6136dad4a57c6ad4049
+  AlicloudUTDID: f5a7bc1420c5f83e3bd40296e5ab2e5a804a12f8
+  AlicloudUtils: 28729eba18437f58000afb7657c5499c751a0826
+
+PODFILE CHECKSUM: a366c83266c6dbc3722fd40e797016bd84350ca1
+
+COCOAPODS: 1.1.1

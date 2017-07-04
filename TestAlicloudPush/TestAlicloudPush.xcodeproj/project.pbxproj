@@ -1,0 +1,636 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		162D7023815CB4675CA409C8 /* Pods_TestAlicloudPush.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61AA60CC9590BE65A45A77AD /* Pods_TestAlicloudPush.framework */; };
+		7EB94BBA1EE92D34006604DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB94BB91EE92D34006604DC /* AppDelegate.swift */; };
+		7EB94BBC1EE92D34006604DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB94BBB1EE92D34006604DC /* ViewController.swift */; };
+		7EB94BBF1EE92D34006604DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EB94BBD1EE92D34006604DC /* Main.storyboard */; };
+		7EB94BC21EE92D34006604DC /* TestAlicloudPush.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7EB94BC01EE92D34006604DC /* TestAlicloudPush.xcdatamodeld */; };
+		7EB94BC41EE92D34006604DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EB94BC31EE92D34006604DC /* Assets.xcassets */; };
+		7EB94BC71EE92D34006604DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EB94BC51EE92D34006604DC /* LaunchScreen.storyboard */; };
+		7EB94BD21EE92D34006604DC /* TestAlicloudPushTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB94BD11EE92D34006604DC /* TestAlicloudPushTests.swift */; };
+		7EB94BDD1EE92D34006604DC /* TestAlicloudPushUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB94BDC1EE92D34006604DC /* TestAlicloudPushUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7EB94BCE1EE92D34006604DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7EB94BAE1EE92D34006604DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7EB94BB51EE92D34006604DC;
+			remoteInfo = TestAlicloudPush;
+		};
+		7EB94BD91EE92D34006604DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7EB94BAE1EE92D34006604DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7EB94BB51EE92D34006604DC;
+			remoteInfo = TestAlicloudPush;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E74959E6712B6A6C6658B15 /* Pods-TestAlicloudPush.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestAlicloudPush.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestAlicloudPush/Pods-TestAlicloudPush.release.xcconfig"; sourceTree = "<group>"; };
+		39EBE48E7C789F3731E9B5C5 /* Pods-TestAlicloudPush.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestAlicloudPush.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestAlicloudPush/Pods-TestAlicloudPush.debug.xcconfig"; sourceTree = "<group>"; };
+		61AA60CC9590BE65A45A77AD /* Pods_TestAlicloudPush.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestAlicloudPush.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EB94BB61EE92D34006604DC /* TestAlicloudPush.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestAlicloudPush.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EB94BB91EE92D34006604DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7EB94BBB1EE92D34006604DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7EB94BBE1EE92D34006604DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7EB94BC11EE92D34006604DC /* TestAlicloudPush.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TestAlicloudPush.xcdatamodel; sourceTree = "<group>"; };
+		7EB94BC31EE92D34006604DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7EB94BC61EE92D34006604DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7EB94BC81EE92D34006604DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EB94BCD1EE92D34006604DC /* TestAlicloudPushTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestAlicloudPushTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EB94BD11EE92D34006604DC /* TestAlicloudPushTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAlicloudPushTests.swift; sourceTree = "<group>"; };
+		7EB94BD31EE92D34006604DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EB94BD81EE92D34006604DC /* TestAlicloudPushUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestAlicloudPushUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EB94BDC1EE92D34006604DC /* TestAlicloudPushUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAlicloudPushUITests.swift; sourceTree = "<group>"; };
+		7EB94BDE1EE92D34006604DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7EB94BB31EE92D34006604DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				162D7023815CB4675CA409C8 /* Pods_TestAlicloudPush.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EB94BCA1EE92D34006604DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EB94BD51EE92D34006604DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7EB94BAD1EE92D34006604DC = {
+			isa = PBXGroup;
+			children = (
+				7EB94BB81EE92D34006604DC /* TestAlicloudPush */,
+				7EB94BD01EE92D34006604DC /* TestAlicloudPushTests */,
+				7EB94BDB1EE92D34006604DC /* TestAlicloudPushUITests */,
+				7EB94BB71EE92D34006604DC /* Products */,
+				EB120F776A2EA8E0EFB28828 /* Pods */,
+				E0CFE857FF0299741E6B39E9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7EB94BB71EE92D34006604DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7EB94BB61EE92D34006604DC /* TestAlicloudPush.app */,
+				7EB94BCD1EE92D34006604DC /* TestAlicloudPushTests.xctest */,
+				7EB94BD81EE92D34006604DC /* TestAlicloudPushUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7EB94BB81EE92D34006604DC /* TestAlicloudPush */ = {
+			isa = PBXGroup;
+			children = (
+				7EB94BB91EE92D34006604DC /* AppDelegate.swift */,
+				7EB94BBB1EE92D34006604DC /* ViewController.swift */,
+				7EB94BBD1EE92D34006604DC /* Main.storyboard */,
+				7EB94BC31EE92D34006604DC /* Assets.xcassets */,
+				7EB94BC51EE92D34006604DC /* LaunchScreen.storyboard */,
+				7EB94BC81EE92D34006604DC /* Info.plist */,
+				7EB94BC01EE92D34006604DC /* TestAlicloudPush.xcdatamodeld */,
+			);
+			path = TestAlicloudPush;
+			sourceTree = "<group>";
+		};
+		7EB94BD01EE92D34006604DC /* TestAlicloudPushTests */ = {
+			isa = PBXGroup;
+			children = (
+				7EB94BD11EE92D34006604DC /* TestAlicloudPushTests.swift */,
+				7EB94BD31EE92D34006604DC /* Info.plist */,
+			);
+			path = TestAlicloudPushTests;
+			sourceTree = "<group>";
+		};
+		7EB94BDB1EE92D34006604DC /* TestAlicloudPushUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7EB94BDC1EE92D34006604DC /* TestAlicloudPushUITests.swift */,
+				7EB94BDE1EE92D34006604DC /* Info.plist */,
+			);
+			path = TestAlicloudPushUITests;
+			sourceTree = "<group>";
+		};
+		E0CFE857FF0299741E6B39E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				61AA60CC9590BE65A45A77AD /* Pods_TestAlicloudPush.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB120F776A2EA8E0EFB28828 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				39EBE48E7C789F3731E9B5C5 /* Pods-TestAlicloudPush.debug.xcconfig */,
+				1E74959E6712B6A6C6658B15 /* Pods-TestAlicloudPush.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7EB94BB51EE92D34006604DC /* TestAlicloudPush */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EB94BE11EE92D34006604DC /* Build configuration list for PBXNativeTarget "TestAlicloudPush" */;
+			buildPhases = (
+				2196B5C26C710A42E00AA6C5 /* [CP] Check Pods Manifest.lock */,
+				7EB94BB21EE92D34006604DC /* Sources */,
+				7EB94BB31EE92D34006604DC /* Frameworks */,
+				7EB94BB41EE92D34006604DC /* Resources */,
+				4A1B2111D2ECF20D3F928964 /* [CP] Embed Pods Frameworks */,
+				738534902DA16AC3E716DE6E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestAlicloudPush;
+			productName = TestAlicloudPush;
+			productReference = 7EB94BB61EE92D34006604DC /* TestAlicloudPush.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7EB94BCC1EE92D34006604DC /* TestAlicloudPushTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EB94BE41EE92D34006604DC /* Build configuration list for PBXNativeTarget "TestAlicloudPushTests" */;
+			buildPhases = (
+				7EB94BC91EE92D34006604DC /* Sources */,
+				7EB94BCA1EE92D34006604DC /* Frameworks */,
+				7EB94BCB1EE92D34006604DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7EB94BCF1EE92D34006604DC /* PBXTargetDependency */,
+			);
+			name = TestAlicloudPushTests;
+			productName = TestAlicloudPushTests;
+			productReference = 7EB94BCD1EE92D34006604DC /* TestAlicloudPushTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7EB94BD71EE92D34006604DC /* TestAlicloudPushUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EB94BE71EE92D34006604DC /* Build configuration list for PBXNativeTarget "TestAlicloudPushUITests" */;
+			buildPhases = (
+				7EB94BD41EE92D34006604DC /* Sources */,
+				7EB94BD51EE92D34006604DC /* Frameworks */,
+				7EB94BD61EE92D34006604DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7EB94BDA1EE92D34006604DC /* PBXTargetDependency */,
+			);
+			name = TestAlicloudPushUITests;
+			productName = TestAlicloudPushUITests;
+			productReference = 7EB94BD81EE92D34006604DC /* TestAlicloudPushUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7EB94BAE1EE92D34006604DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = ysj;
+				TargetAttributes = {
+					7EB94BB51EE92D34006604DC = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 2EUZ5J663F;
+						ProvisioningStyle = Automatic;
+					};
+					7EB94BCC1EE92D34006604DC = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 2EUZ5J663F;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7EB94BB51EE92D34006604DC;
+					};
+					7EB94BD71EE92D34006604DC = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 2EUZ5J663F;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7EB94BB51EE92D34006604DC;
+					};
+				};
+			};
+			buildConfigurationList = 7EB94BB11EE92D34006604DC /* Build configuration list for PBXProject "TestAlicloudPush" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7EB94BAD1EE92D34006604DC;
+			productRefGroup = 7EB94BB71EE92D34006604DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7EB94BB51EE92D34006604DC /* TestAlicloudPush */,
+				7EB94BCC1EE92D34006604DC /* TestAlicloudPushTests */,
+				7EB94BD71EE92D34006604DC /* TestAlicloudPushUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7EB94BB41EE92D34006604DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EB94BC71EE92D34006604DC /* LaunchScreen.storyboard in Resources */,
+				7EB94BC41EE92D34006604DC /* Assets.xcassets in Resources */,
+				7EB94BBF1EE92D34006604DC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EB94BCB1EE92D34006604DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EB94BD61EE92D34006604DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2196B5C26C710A42E00AA6C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4A1B2111D2ECF20D3F928964 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestAlicloudPush/Pods-TestAlicloudPush-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		738534902DA16AC3E716DE6E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestAlicloudPush/Pods-TestAlicloudPush-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7EB94BB21EE92D34006604DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EB94BC21EE92D34006604DC /* TestAlicloudPush.xcdatamodeld in Sources */,
+				7EB94BBC1EE92D34006604DC /* ViewController.swift in Sources */,
+				7EB94BBA1EE92D34006604DC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EB94BC91EE92D34006604DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EB94BD21EE92D34006604DC /* TestAlicloudPushTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EB94BD41EE92D34006604DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EB94BDD1EE92D34006604DC /* TestAlicloudPushUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7EB94BCF1EE92D34006604DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7EB94BB51EE92D34006604DC /* TestAlicloudPush */;
+			targetProxy = 7EB94BCE1EE92D34006604DC /* PBXContainerItemProxy */;
+		};
+		7EB94BDA1EE92D34006604DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7EB94BB51EE92D34006604DC /* TestAlicloudPush */;
+			targetProxy = 7EB94BD91EE92D34006604DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7EB94BBD1EE92D34006604DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EB94BBE1EE92D34006604DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7EB94BC51EE92D34006604DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EB94BC61EE92D34006604DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7EB94BDF1EE92D34006604DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7EB94BE01EE92D34006604DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7EB94BE21EE92D34006604DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39EBE48E7C789F3731E9B5C5 /* Pods-TestAlicloudPush.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2EUZ5J663F;
+				INFOPLIST_FILE = TestAlicloudPush/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ysj.TestAlicloudPush;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7EB94BE31EE92D34006604DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E74959E6712B6A6C6658B15 /* Pods-TestAlicloudPush.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2EUZ5J663F;
+				INFOPLIST_FILE = TestAlicloudPush/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ysj.TestAlicloudPush;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		7EB94BE51EE92D34006604DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2EUZ5J663F;
+				INFOPLIST_FILE = TestAlicloudPushTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ysj.TestAlicloudPushTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestAlicloudPush.app/TestAlicloudPush";
+			};
+			name = Debug;
+		};
+		7EB94BE61EE92D34006604DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2EUZ5J663F;
+				INFOPLIST_FILE = TestAlicloudPushTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ysj.TestAlicloudPushTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestAlicloudPush.app/TestAlicloudPush";
+			};
+			name = Release;
+		};
+		7EB94BE81EE92D34006604DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 2EUZ5J663F;
+				INFOPLIST_FILE = TestAlicloudPushUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ysj.TestAlicloudPushUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TestAlicloudPush;
+			};
+			name = Debug;
+		};
+		7EB94BE91EE92D34006604DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 2EUZ5J663F;
+				INFOPLIST_FILE = TestAlicloudPushUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ysj.TestAlicloudPushUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TestAlicloudPush;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7EB94BB11EE92D34006604DC /* Build configuration list for PBXProject "TestAlicloudPush" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EB94BDF1EE92D34006604DC /* Debug */,
+				7EB94BE01EE92D34006604DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EB94BE11EE92D34006604DC /* Build configuration list for PBXNativeTarget "TestAlicloudPush" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EB94BE21EE92D34006604DC /* Debug */,
+				7EB94BE31EE92D34006604DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EB94BE41EE92D34006604DC /* Build configuration list for PBXNativeTarget "TestAlicloudPushTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EB94BE51EE92D34006604DC /* Debug */,
+				7EB94BE61EE92D34006604DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EB94BE71EE92D34006604DC /* Build configuration list for PBXNativeTarget "TestAlicloudPushUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EB94BE81EE92D34006604DC /* Debug */,
+				7EB94BE91EE92D34006604DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7EB94BC01EE92D34006604DC /* TestAlicloudPush.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7EB94BC11EE92D34006604DC /* TestAlicloudPush.xcdatamodel */,
+			);
+			currentVersion = 7EB94BC11EE92D34006604DC /* TestAlicloudPush.xcdatamodel */;
+			path = TestAlicloudPush.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7EB94BAE1EE92D34006604DC /* Project object */;
+}
