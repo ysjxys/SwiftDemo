@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  TestComplexEasyAnimation
+//  TestCoreAnimation
 //
-//  Created by ysj on 2017/6/26.
+//  Created by ysj on 2017/7/10.
 //  Copyright © 2017年 ysj. All rights reserved.
 //
 
@@ -20,22 +20,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.backgroundColor = UIColor.white
         
-        let vc = ViewController()
-        vc.tabBarItem.title = "碰撞"
-        
-        let huadong = HuaDongViewController()
-        huadong.tabBarItem.title = "滑动"
-        
-        let core = CoreAnimationViewController()
-        core.tabBarItem.title = "核心"
-        
-        let tabBar = UITabBarController()
-        tabBar.viewControllers = [vc, huadong, core]
-        
-        tabBar.selectedIndex = 2
-        
-        window?.rootViewController = tabBar
+        let nav = UINavigationController(rootViewController: ViewController())
+        window?.rootViewController = nav
         window?.makeKeyAndVisible()
+        
         return true
     }
 
@@ -72,7 +60,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
          application to it. This property is optional since there are legitimate
          error conditions that could cause the creation of the store to fail.
         */
-        let container = NSPersistentContainer(name: "TestComplexEasyAnimation")
+        let container = NSPersistentContainer(name: "TestCoreAnimation")
         container.loadPersistentStores(completionHandler: { (storeDescription, error) in
             if let error = error as NSError? {
                 // Replace this implementation with code to handle the error appropriately.

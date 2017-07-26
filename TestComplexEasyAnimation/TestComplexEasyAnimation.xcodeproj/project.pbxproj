@@ -16,6 +16,9 @@
 		7E68AD941F0101CB00AE0A4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E68AD921F0101CB00AE0A4F /* LaunchScreen.storyboard */; };
 		7E68AD9F1F0101CB00AE0A4F /* TestComplexEasyAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E68AD9E1F0101CB00AE0A4F /* TestComplexEasyAnimationTests.swift */; };
 		7E68ADAA1F0101CB00AE0A4F /* TestComplexEasyAnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E68ADA91F0101CB00AE0A4F /* TestComplexEasyAnimationUITests.swift */; };
+		7E789E241F0F84830040CC04 /* CoreAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E789E231F0F84830040CC04 /* CoreAnimationViewController.swift */; };
+		7E8237921F0E304000DA7030 /* YSJGradientLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8237911F0E304000DA7030 /* YSJGradientLabel.swift */; };
+		7EC0EB6A1F0B7E93001A48F7 /* HuaDongViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC0EB691F0B7E93001A48F7 /* HuaDongViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		7E68ADA51F0101CB00AE0A4F /* TestComplexEasyAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestComplexEasyAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E68ADA91F0101CB00AE0A4F /* TestComplexEasyAnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestComplexEasyAnimationUITests.swift; sourceTree = "<group>"; };
 		7E68ADAB1F0101CB00AE0A4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E789E231F0F84830040CC04 /* CoreAnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreAnimationViewController.swift; sourceTree = "<group>"; };
+		7E8237911F0E304000DA7030 /* YSJGradientLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YSJGradientLabel.swift; sourceTree = "<group>"; };
+		7EC0EB691F0B7E93001A48F7 /* HuaDongViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HuaDongViewController.swift; sourceTree = "<group>"; };
 		7FAAEF36B022733A372C68D7 /* Pods-TestComplexEasyAnimation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestComplexEasyAnimation.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestComplexEasyAnimation/Pods-TestComplexEasyAnimation.release.xcconfig"; sourceTree = "<group>"; };
 		A5F577FCC54C4F0B2DF17954 /* Pods_TestComplexEasyAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestComplexEasyAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -108,6 +114,9 @@
 			children = (
 				7E68AD861F0101CB00AE0A4F /* AppDelegate.swift */,
 				7E68AD881F0101CB00AE0A4F /* ViewController.swift */,
+				7EC0EB691F0B7E93001A48F7 /* HuaDongViewController.swift */,
+				7E8237911F0E304000DA7030 /* YSJGradientLabel.swift */,
+				7E789E231F0F84830040CC04 /* CoreAnimationViewController.swift */,
 				7E68AD8A1F0101CB00AE0A4F /* Main.storyboard */,
 				7E68AD901F0101CB00AE0A4F /* Assets.xcassets */,
 				7E68AD921F0101CB00AE0A4F /* LaunchScreen.storyboard */,
@@ -340,9 +349,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E789E241F0F84830040CC04 /* CoreAnimationViewController.swift in Sources */,
 				7E68AD891F0101CB00AE0A4F /* ViewController.swift in Sources */,
+				7E8237921F0E304000DA7030 /* YSJGradientLabel.swift in Sources */,
 				7E68AD8F1F0101CB00AE0A4F /* TestComplexEasyAnimation.xcdatamodeld in Sources */,
 				7E68AD871F0101CB00AE0A4F /* AppDelegate.swift in Sources */,
+				7EC0EB6A1F0B7E93001A48F7 /* HuaDongViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -595,6 +607,7 @@
 				7E68ADB01F0101CB00AE0A4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7E68ADB11F0101CB00AE0A4F /* Build configuration list for PBXNativeTarget "TestComplexEasyAnimationTests" */ = {
 			isa = XCConfigurationList;
@@ -603,6 +616,7 @@
 				7E68ADB31F0101CB00AE0A4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7E68ADB41F0101CB00AE0A4F /* Build configuration list for PBXNativeTarget "TestComplexEasyAnimationUITests" */ = {
 			isa = XCConfigurationList;
@@ -611,6 +625,7 @@
 				7E68ADB61F0101CB00AE0A4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
