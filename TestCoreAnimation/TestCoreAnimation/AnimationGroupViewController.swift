@@ -32,7 +32,7 @@ class AnimationGroupViewController: UIViewController, BottomBtnsViewDelegate {
         
         rightView.frame = CGRect(x: distance * 2 + width, y: 150, width: width, height: width)
         rightView.backgroundColor = UIColor.lightGray
-        view.addSubview(rightView)
+//        view.addSubview(rightView)
         
         viewLayer.bounds = CGRect(x: 0, y: 0, width: width, height: width)
         viewLayer.position = CGPoint(x: rightView.frame.width/2, y: rightView.frame.height/2)

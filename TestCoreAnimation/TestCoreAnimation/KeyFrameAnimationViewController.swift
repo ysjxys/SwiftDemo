@@ -32,7 +32,7 @@ class KeyFrameAnimationViewController: UIViewController, BottomBtnsViewDelegate,
         
         rightView.frame = CGRect(x: distance * 2 + width, y: 150, width: width, height: width)
         rightView.backgroundColor = UIColor.lightGray
-        view.addSubview(rightView)
+//        view.addSubview(rightView)
         
         viewLayer.bounds = CGRect(x: 0, y: 0, width: width, height: width)
         viewLayer.position = CGPoint(x: rightView.frame.width/2, y: rightView.frame.height/2)
@@ -97,7 +97,6 @@ class KeyFrameAnimationViewController: UIViewController, BottomBtnsViewDelegate,
             CGPoint(x: layer.position.x, y: layer.position.y)]
         animation.keyTimes = [0.0, 0.2, 0.6, 0.9, 1.0]
         animation.duration = 4
-        animation.delegate = self
         layer.add(animation, forKey: "animation")
         
         let viewAnimation = CAKeyframeAnimation(keyPath: "position")
