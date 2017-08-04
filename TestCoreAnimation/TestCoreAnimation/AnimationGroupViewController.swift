@@ -93,6 +93,7 @@ class AnimationGroupViewController: UIViewController, BottomBtnsViewDelegate {
         animationPosition.fromValue = layer.position
         animationPosition.toValue = CGPoint(x: layer.position.x + 100, y: layer.position.y + 100)
         animationPosition.duration = 2
+        animationPosition.beginTime = 1
 //        animationPosition.beginTime = CACurrentMediaTime() + 1
         
         let viewAnimationPosition = CABasicAnimation()
@@ -109,7 +110,7 @@ class AnimationGroupViewController: UIViewController, BottomBtnsViewDelegate {
         let viewGroup = CAAnimationGroup()
         viewGroup.animations = [animationColor, viewAnimationPosition]
         viewGroup.duration = 3
-        viewLayer.add(viewGroup, forKey: "viewGroup")
+//        viewLayer.add(viewGroup, forKey: "viewGroup")
     }
     
     func btnClicked(index: Int) {

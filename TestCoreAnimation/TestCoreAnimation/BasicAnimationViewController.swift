@@ -107,8 +107,17 @@ class BasicAnimationViewController: UIViewController, BottomBtnsViewDelegate, CA
         animation.fromValue = 1.0
         animation.toValue = 0.5
         animation.duration = 1
-        animation.delegate = self
         layer.add(animation, forKey: "animation")
+        
+//        let animation = CABasicAnimation(keyPath: "transform.scale")
+//        animation.beginTime = CACurrentMediaTime() + 1
+//        animation.fromValue = 1.0
+//        animation.toValue = 0.5
+//        animation.repeatCount = 3
+//        animation.repeatDuration = 5
+//        animation.duration = 1
+//        animation.delegate = self
+//        layer.add(animation, forKey: "animation")
         
         let viewAnimation = CABasicAnimation(keyPath: "transform.scale")
         viewAnimation.fromValue = 1.0

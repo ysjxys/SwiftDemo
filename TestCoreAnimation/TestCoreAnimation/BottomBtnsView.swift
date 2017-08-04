@@ -28,7 +28,7 @@ class BottomBtnsView: UIView {
         
         let extNum = (titleArray.count % Int(numberPerLine)) == 0 ? 0 : 1
         let height = CGFloat((titleArray.count / Int(numberPerLine)) + extNum) * (btnHeight + distance)
-        let y = UIScreen.main.bounds.height - height
+        let y = UIScreen.main.bounds.height - height - 100
         
         super.init(frame: CGRect(x: 0, y: y, width: UIScreen.main.bounds.width, height: height))
         initBtns()
