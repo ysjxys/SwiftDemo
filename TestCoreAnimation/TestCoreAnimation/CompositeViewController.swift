@@ -63,7 +63,7 @@ class CompositeViewController: UIViewController {
         sumBtn.isEnabled = false
         
         let sumBtnRotateAnimation = CABasicAnimation(keyPath: "transform.rotation.z")
-        sumBtnRotateAnimation.duration = 0.5
+        sumBtnRotateAnimation.duration = sumBtnClickDuration
         sumBtnRotateAnimation.fillMode = kCAFillModeBoth
         sumBtnRotateAnimation.isRemovedOnCompletion = false
         
@@ -72,13 +72,13 @@ class CompositeViewController: UIViewController {
         }
         
         if isExpand {
-            UIView.animate(withDuration: 0.5, animations: {
+            UIView.animate(withDuration: sumBtnClickDuration, animations: {
                 self.maskView.alpha = 0
             })
             sumBtnRotateAnimation.fromValue = Double.pi / 4
             sumBtnRotateAnimation.toValue = 0
         } else {
-            UIView.animate(withDuration: 0.5, animations: {
+            UIView.animate(withDuration: sumBtnClickDuration, animations: {
                 self.maskView.alpha = 0.4
             })
             sumBtnRotateAnimation.fromValue = 0
