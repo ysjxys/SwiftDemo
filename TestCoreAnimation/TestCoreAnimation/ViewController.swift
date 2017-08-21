@@ -63,7 +63,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             vc = TransitionViewController()
         case 4:
             print("4")
-            return
+            vc = CompositeViewController()
         default:
             return
         }

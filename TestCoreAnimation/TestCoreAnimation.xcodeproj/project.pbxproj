@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7E45A58C1F2B17E300E93DB3 /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E45A58B1F2B17E300E93DB3 /* DemoViewController.swift */; };
+		7E6B2BB11F44210C00245123 /* CompositeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6B2BB01F44210C00245123 /* CompositeViewController.swift */; };
 		7E789E321F1354F00040CC04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E789E311F1354F00040CC04 /* AppDelegate.swift */; };
 		7E789E341F1354F00040CC04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E789E331F1354F00040CC04 /* ViewController.swift */; };
 		7E789E371F1354F00040CC04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E789E351F1354F00040CC04 /* Main.storyboard */; };
@@ -42,6 +43,7 @@
 
 /* Begin PBXFileReference section */
 		7E45A58B1F2B17E300E93DB3 /* DemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = "<group>"; };
+		7E6B2BB01F44210C00245123 /* CompositeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompositeViewController.swift; sourceTree = "<group>"; };
 		7E789E2E1F1354F00040CC04 /* TestCoreAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestCoreAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E789E311F1354F00040CC04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7E789E331F1354F00040CC04 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 				7EC0CB541F136233000E02F6 /* KeyFrameAnimationViewController.swift */,
 				7EC0CB561F13626E000E02F6 /* AnimationGroupViewController.swift */,
 				7EC0CB581F1362B5000E02F6 /* TransitionViewController.swift */,
+				7E6B2BB01F44210C00245123 /* CompositeViewController.swift */,
 				7E789E351F1354F00040CC04 /* Main.storyboard */,
 				7E789E3B1F1354F00040CC04 /* Assets.xcassets */,
 				7E789E3D1F1354F00040CC04 /* LaunchScreen.storyboard */,
@@ -285,6 +288,7 @@
 			files = (
 				7E789E341F1354F00040CC04 /* ViewController.swift in Sources */,
 				7E789E321F1354F00040CC04 /* AppDelegate.swift in Sources */,
+				7E6B2BB11F44210C00245123 /* CompositeViewController.swift in Sources */,
 				7EC0CB531F135A85000E02F6 /* BasicAnimationViewController.swift in Sources */,
 				7E45A58C1F2B17E300E93DB3 /* DemoViewController.swift in Sources */,
 				7E789E3A1F1354F00040CC04 /* TestCoreAnimation.xcdatamodeld in Sources */,
