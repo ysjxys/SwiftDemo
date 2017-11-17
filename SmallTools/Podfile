@@ -1,0 +1,9 @@
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/aliyun/aliyun-specs.git'
+platform :ios, '8.1'
+target ‘SmallTools’ do
+    use_frameworks!
+pod 'SnapKit', '~> 3.2.0'
+pod 'AFNetworking', '~> 3.1'
+pod 'MBProgressHUD', '~> 1.0.0'
+end

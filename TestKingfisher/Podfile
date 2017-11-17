@@ -1,0 +1,6 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.1'
+target ‘TestKingfisher’ do
+    use_frameworks!
+pod 'Kingfisher', '~> 3.2.4'
+end

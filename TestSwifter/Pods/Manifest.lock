@@ -1,0 +1,18 @@
+PODS:
+  - SwifterSwift (3.1.0):
+    - SwifterSwift/Cocoa (= 3.1.0)
+    - SwifterSwift/Foundation (= 3.1.0)
+    - SwifterSwift/UIKit (= 3.1.0)
+  - SwifterSwift/Cocoa (3.1.0)
+  - SwifterSwift/Foundation (3.1.0)
+  - SwifterSwift/UIKit (3.1.0)
+
+DEPENDENCIES:
+  - SwifterSwift
+
+SPEC CHECKSUMS:
+  SwifterSwift: f84eb7308f7742724b3cbf84283ce00f7c06d7fc
+
+PODFILE CHECKSUM: 02ee30fcc128882b4acbc0ff0dee14fb5d01edf4
+
+COCOAPODS: 1.1.1
