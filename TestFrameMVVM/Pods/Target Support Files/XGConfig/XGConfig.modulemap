@@ -1,0 +1,6 @@
+framework module XGConfig {
+  umbrella header "XGConfig-umbrella.h"
+
+  export *
+  module * { export * }
+}

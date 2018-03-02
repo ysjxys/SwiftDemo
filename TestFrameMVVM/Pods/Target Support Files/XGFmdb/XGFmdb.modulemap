@@ -1,0 +1,6 @@
+framework module XGFmdb {
+  umbrella header "XGFmdb-umbrella.h"
+
+  export *
+  module * { export * }
+}

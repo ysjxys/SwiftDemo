@@ -1,0 +1,34 @@
+PODS:
+  - Alamofire (4.5.1)
+  - HandyJSON (4.0.0-beta.1)
+  - ObjcExceptionBridging (1.0.1):
+    - ObjcExceptionBridging/ObjcExceptionBridging (= 1.0.1)
+  - ObjcExceptionBridging/ObjcExceptionBridging (1.0.1)
+  - SnapKit (4.0.0)
+  - SwiftyJSON (3.1.4)
+  - XBLogger (1.2.1):
+    - XCGLogger (= 6.0.1)
+  - XCGLogger (6.0.1):
+    - XCGLogger/Core (= 6.0.1)
+  - XCGLogger/Core (6.0.1):
+    - ObjcExceptionBridging
+
+DEPENDENCIES:
+  - Alamofire (~> 4.5.1)
+  - HandyJSON (= 4.0.0-beta.1)
+  - SnapKit (~> 4.0.0)
+  - SwiftyJSON (= 3.1.4)
+  - XBLogger (= 1.2.1)
+
+SPEC CHECKSUMS:
+  Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
+  HandyJSON: 428bb18e2c34c2a77361accebf90cf64e4f74118
+  ObjcExceptionBridging: c30e00eb3700467e695faeea30e26e18bd445001
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+  XBLogger: a980f490385b537d9776d5246d0677f40dcbe5e3
+  XCGLogger: b4ca980580108cfeaf221afe158f5d89c1be22e0
+
+PODFILE CHECKSUM: a382582a8292cfdf30c3a8dad1b768cae7400666
+
+COCOAPODS: 1.3.1

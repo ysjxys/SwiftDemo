@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E6DB39F1FF1EEAB002B05CA /* ScanImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6DB39E1FF1EEAB002B05CA /* ScanImageViewController.swift */; };
+		7E6DB3A21FF22F82002B05CA /* FSRecognizerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6DB3A01FF22F82002B05CA /* FSRecognizerManager.swift */; };
+		7E6DB3A31FF22F82002B05CA /* FSRecognizerPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6DB3A11FF22F82002B05CA /* FSRecognizerPreviewView.swift */; };
 		7EA69C211FEB502F00CBD4C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA69C201FEB502F00CBD4C9 /* AppDelegate.swift */; };
 		7EA69C231FEB502F00CBD4C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA69C221FEB502F00CBD4C9 /* ViewController.swift */; };
 		7EA69C261FEB502F00CBD4C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EA69C241FEB502F00CBD4C9 /* Main.storyboard */; };
@@ -37,6 +40,9 @@
 
 /* Begin PBXFileReference section */
 		7442D30A847B0983FB3709A0 /* Pods-TestOCR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestOCR.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestOCR/Pods-TestOCR.debug.xcconfig"; sourceTree = "<group>"; };
+		7E6DB39E1FF1EEAB002B05CA /* ScanImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanImageViewController.swift; sourceTree = "<group>"; };
+		7E6DB3A01FF22F82002B05CA /* FSRecognizerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSRecognizerManager.swift; sourceTree = "<group>"; };
+		7E6DB3A11FF22F82002B05CA /* FSRecognizerPreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSRecognizerPreviewView.swift; sourceTree = "<group>"; };
 		7EA69C1D1FEB502F00CBD4C9 /* TestOCR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestOCR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EA69C201FEB502F00CBD4C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7EA69C221FEB502F00CBD4C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -115,8 +121,11 @@
 		7EA69C1F1FEB502F00CBD4C9 /* TestOCR */ = {
 			isa = PBXGroup;
 			children = (
+				7E6DB3A01FF22F82002B05CA /* FSRecognizerManager.swift */,
+				7E6DB3A11FF22F82002B05CA /* FSRecognizerPreviewView.swift */,
 				7EA69C201FEB502F00CBD4C9 /* AppDelegate.swift */,
 				7EA69C221FEB502F00CBD4C9 /* ViewController.swift */,
+				7E6DB39E1FF1EEAB002B05CA /* ScanImageViewController.swift */,
 				7EA69C241FEB502F00CBD4C9 /* Main.storyboard */,
 				7EA69C2A1FEB502F00CBD4C9 /* Assets.xcassets */,
 				7EA69C2C1FEB502F00CBD4C9 /* LaunchScreen.storyboard */,
@@ -345,9 +354,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E6DB3A31FF22F82002B05CA /* FSRecognizerPreviewView.swift in Sources */,
 				7EA69C231FEB502F00CBD4C9 /* ViewController.swift in Sources */,
 				7EA69C291FEB502F00CBD4C9 /* TestOCR.xcdatamodeld in Sources */,
 				7EA69C211FEB502F00CBD4C9 /* AppDelegate.swift in Sources */,
+				7E6DB39F1FF1EEAB002B05CA /* ScanImageViewController.swift in Sources */,
+				7E6DB3A21FF22F82002B05CA /* FSRecognizerManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

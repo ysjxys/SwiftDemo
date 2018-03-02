@@ -1,0 +1,6 @@
+framework module RiderUser {
+  umbrella header "RiderUser-umbrella.h"
+
+  export *
+  module * { export * }
+}

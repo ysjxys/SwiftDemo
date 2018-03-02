@@ -98,7 +98,7 @@ open class XGDigitalRecognize {
                          recognizedString.append(recognizedChar)
                          */
                         
-                        for (networkIndex, _) in networkResult.enumerated().sorted(by: {$0.0.element > $0.1.element}) {
+                        for (networkIndex, _) in networkResult.enumerated().sorted(by: {arg0 ,arg1 in arg0.element > arg1.element}) {
                             let character = indexToCharacter(networkIndex)
                             
                             recognizedString.append(character)
@@ -361,7 +361,11 @@ open class XGDigitalRecognize {
                 }
                 
                 let transposedData = Array(data[minY...maxY].map({return $0[(minX + 2)...(maxX - 2)]})).transpose() // [y][x] -> [x][y]
-                let reducedMaxIndexArray = transposedData.map({return $0.reduce(0, {return UInt32($0.0) + UInt32($0.1)})}) //Covert to UInt32 to prevent overflow
+                let reducedMaxIndexArray = transposedData.map({
+                    return $0.reduce(0, {arg0, arg1 in
+                        return UInt32(arg0) + UInt32(arg1)
+                    })
+                }) //Covert to UInt32 to prevent overflow
                 let maxIndex = reducedMaxIndexArray.enumerated().max(by: {return $0.1 < $1.1})?.0 ?? 0
                 
                 
@@ -439,7 +443,9 @@ open class XGDigitalRecognize {
             }
         }
         
-        outputImages.sort(by: {return $0.0.1.origin.x < $0.1.1.origin.x})
+        outputImages.sort(by: {arg0, arg1 in
+            return arg0.1.origin.x < arg1.1.origin.x
+        })
         return outputImages
         
     }
@@ -688,7 +694,9 @@ public struct SwiftOCRRecognizedBlob {
     public let boundingBox:              CGRect!
     
     init(charactersWithConfidence: [(character: Character, confidence: Float)]!, boundingBox: CGRect) {
-        self.charactersWithConfidence = charactersWithConfidence.sorted(by: {return $0.0.confidence > $0.1.confidence})
+        self.charactersWithConfidence = charactersWithConfidence.sorted(by: { arg0, arg1 in
+            return arg0.confidence > arg1.confidence
+        })
         self.boundingBox = boundingBox
     }
     

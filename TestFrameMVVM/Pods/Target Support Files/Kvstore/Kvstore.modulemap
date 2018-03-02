@@ -1,0 +1,6 @@
+framework module Kvstore {
+  umbrella header "Kvstore-umbrella.h"
+
+  export *
+  module * { export * }
+}
